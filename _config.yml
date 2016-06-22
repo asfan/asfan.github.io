@@ -1,0 +1,53 @@
+permalink: /:year/:month/:day/:title.html
+paginate: 10
+markdown: redcarpet
+
+# 作者信息
+author: 
+  name: Yuanping Fan
+  email: fanapplefan@gmail.com
+  link: http://asfan.github.io
+  weibo: http://weibo.com/fanapplefan
+  github: http://github.com/asfan
+#  music: http://site.douban.com/linanya
+#  linkedin: https://www.linkedin.com/pub/anya-lin/81/91/232
+
+# 站点信息
+title: 范元平的blog
+description: My personal blog
+url: http://asfan.github.io/
+rss_url: /pages/atom.xml
+
+# gavatar头像及Favicon
+gavatar: /public/img/asfan.jpg
+favicon: /public/img/asfan.jpg
+
+# google analytics 设置
+#ga:
+#  id: UA-54262064-1 
+#  url: painterlin.com
+
+# disqus 设置
+disqus:
+#  shortname: painterlin
+  shortname: asfan
+
+# 主题设置，自动激活某个标签
+active: Language
+
+# 首页除了最新文章外显示分类
+cates: 
+  - Optimization
+  - LaTeX
+  - Language
+
+# 中文本地化
+locals:
+  tags: 标签
+  about: 关于
+  newest: 最新文章
+  archive: 归档
+
+#gems
+gems: [jekyll-paginate]
+
