@@ -44,8 +44,9 @@ http/https协议是互联网开发中最常用的协议，有着自己独特的�
 - 502 Bad Gateway 网关错误
 - 503 Service Unavailable 服务不可用
 
-实际开发中关于http的小tips：
-a. 自定义http头的传递问题：在设计系统时，方案是利用http头传递trace相关的id参数等，但在实际使用php curl进行传递时下游并没有获取相关参数。定位发现是nginx层就已经把http自定义头放弃了。可以发现的是nginx与apache不同，apache是在自己的进程内对php流程进行处理，配合http头解析不需要做额外工作。但nginx是依赖fpm处理php逻辑，有socket交互过程，因此只有在参数中显示配置相关参数才能正常传递，如：
+实际开发中关于http的小tips：  
+a. 自定义http头的传递问题：  
+	在设计系统时，方案是利用http头传递trace相关的id参数等，但在实际使用php curl进行传递时下游并没有获取相关参数。定位发现是下游机器以nginx作为自己的前端服务器，在未配置的情况下，将http自定义头放弃了。可以发现的是nginx与apache不同，apache是在自己的进程内对php进行处理，配合http头解析不需要做额外工作。但nginx是依赖fpm处理php逻辑，有socket交互过程，因此只有在参数中显示配置相关参数才能正常传递。
 
 
 

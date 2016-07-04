@@ -19,7 +19,7 @@ description: Learning to use Git&GitHub
 #####个人的一些理解：
 
 - git&github的区别  
-	git：		一个单机的版本控制软件，利用fs完美的解决了版本问题。  
+	git：		一个单机的版本控制软件，利用fs完美的解决了版本问题(没有远端中心节点的概念，保持c2c的结构)。  
 	github：	作为开放源码的中心节点服务，最大的优势是为广大码农提供一片交流空间，而加入这片空间的工具是git，可以说是个以码交友的client。
 
 #####个人常用的场景：  
@@ -34,12 +34,27 @@ description: Learning to use Git&GitHub
 	
 - 维护自己的代码：
 		
-		#修改提交到本地
+		#修改提交到本地（无论是new or modify，一定要先add）
 		git add xxx
 		git commit xxx -m 'xxx'
 	
-- 创建远程repository
+- 创建远程repository  
+  在github上创建，是可视化界面，因此不多说，主要讲一下几种命令行的情况：
+  		
+  		#远端github已建立repository的情况，在本地文件夹
+  		git init
+  		#绑定远端分支
+		git remote add origin https://github.com/xxx/xxx.github.io.git
+		#远端更新(拉取远端代码合并，有冲突就解决)
+		git pull origin master
+		#远端上传（推送本地版本代码入github repository）
+		git push origin master
 		
+- 一些查看命令  
+  
+  		#查看代码改动、分支情况
+  		git status
+  		
 		
 	
 	

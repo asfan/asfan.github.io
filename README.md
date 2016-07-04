@@ -1,7 +1,7 @@
 # asfan.github.io
 
-pages test
+范元平的小站
 
-It has been a long time!
+调性什么的很难有，喜欢的格言是：用心工作，拼命生活。
 
-test test
+试着将普通的生活过的有些滋味，与君共勉～
