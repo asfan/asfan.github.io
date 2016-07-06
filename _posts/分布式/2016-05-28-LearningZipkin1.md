@@ -1,7 +1,7 @@
 ---
 layout: post
 title: zipkin系统学习1（zipkin安装）
-category: 分布式
+category: DS
 tags: dapper zipkin
 keywords: zipkin trace
 description: 关于zipkin系统的搭建，组成，原理
