@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git&GitHub使用
-category: Tools
+category: 工具
 tags: Git GitHub
 keywords: Git
 description: Learning to use Git&GitHub

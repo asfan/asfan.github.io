@@ -4,7 +4,7 @@ markdown: redcarpet
 
 # 作者信息
 author: 
-  name: Yuanping Fan
+  name: Fan Yuanping
   email: fanapplefan@gmail.com
   link: http://asfan.github.io
   weibo: http://weibo.com/fanapplefan
@@ -37,9 +37,9 @@ active: Language
 
 # 首页除了最新文章外显示分类
 cates: 
-  - Optimization
-  - LaTeX
-  - Language
+  - PHP
+  - 随笔
+  - Linux 
 
 # 中文本地化
 locals:

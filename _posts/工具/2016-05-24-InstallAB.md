@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ab 单独安装
-category: Tools
+category: 工具
 tags: apache ab
 keywords: apache ab
 description: centOS6.5环境下，独立安装ab工具

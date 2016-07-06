@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Linux下各软件参数查看
-category: Tools
-tags: 
+category: Linux
+tags: linux params
 keywords: linux
 description: linux cmd params check
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Children
-category: Reading
-tags: life
+category: 随笔
+tags: 
 keywords: 孩子、阅读
 description: 纪伯伦
 ---

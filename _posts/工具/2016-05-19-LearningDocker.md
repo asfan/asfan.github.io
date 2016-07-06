@@ -1,7 +1,7 @@
 ---
 layout: post
 title: docker学习
-category: Tools
+category: 工具
 tags: docker tool
 keywords: docker linux
 description: docker初学

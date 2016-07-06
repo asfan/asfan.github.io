@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Http 基础知识（1）
-category: Basics
+category: 基础
 tags: http interview
 keywords: http RFC2616
 description: http基础

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: awk语言学习
-category: Language
+category: 工具
 tags: study
 keywords: awk shell
 description: awk语言学习
