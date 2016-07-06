@@ -8,7 +8,7 @@ description: Learning to use Git&GitHub
 ---
 
 ####学习背景
-记得12、13年的时候，小师妹说过她本科的孩纸们都在玩git，作为一个嵌入式开发工程师，真心不屑一顾了一番，然后继续自己貌似高大上的google research，真是每天都在鄙视昨天sb的自己。找工作时候，阴差阳错成为了互联网浪潮中一朵小小浪花，天天search、clone、pull，真正发现了github的美，特此记录一下常用的场景。
+记得12、13年的时候，小师妹说过她本科的孩纸们都在玩github，作为一个嵌入式开发工程师，真心不屑一顾了一番，然后继续自己貌似高大上的google research，真是每天都在鄙视昨天sb的自己。找工作时候，阴差阳错成为了互联网浪潮中一朵小小浪花，天天search、clone、pull，真正发现了git的美，特此记录一下常用的场景。
 
 ####参考资料  
 
@@ -43,10 +43,13 @@ description: Learning to use Git&GitHub
   		
   		#远端github已建立repository的情况，在本地文件夹
   		git init
-  		#绑定远端分支
+  		
+  		#绑定远端分支（origin是远程分支的一个名字）
 		git remote add origin https://github.com/xxx/xxx.github.io.git
+		
 		#远端更新(拉取远端代码合并，有冲突就解决)
 		git pull origin master
+		
 		#远端上传（推送本地版本代码入github repository）
 		git push origin master
 		
@@ -54,6 +57,22 @@ description: Learning to use Git&GitHub
   
   		#查看代码改动、分支情况
   		git status
+  		
+- 远端repository相关操作
+	
+		#查看所有远程库
+		git remote -v
+		
+		#重命名远程库
+		git remote rename <original name> <current name>
+		
+		#删除远程库
+		git remote rm
+		
+		
+		
+		
+		
   		
 		
 	
