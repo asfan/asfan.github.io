@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Http 基础知识（1）
+title: Http 基础知识
 category: 基础
 tags: http interview
 keywords: http RFC2616
@@ -40,9 +40,11 @@ http/https协议是互联网开发中最常用的协议，有着自己独特的�
 - 400 Bad Request 请求错误（client)
 - 403 Forbidden 禁止访问
 - 404 Not Found 找不到
+- 499 客户端主动关闭连接错误
 - 500 Internal Server Error 服务器内部错误
 - 502 Bad Gateway 网关错误
 - 503 Service Unavailable 服务不可用
+
 
 实际开发中关于http的小tips：  
 a. 自定义http头的传递问题：  

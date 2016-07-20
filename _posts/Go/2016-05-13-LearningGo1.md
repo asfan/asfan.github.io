@@ -14,3 +14,4 @@ description: 学习go语言记录第一篇
 
 ####参考资料
 - [《go语言编程》](https://book.douban.com/subject/11577300/)
+- [godoc](http://localhost:6060)

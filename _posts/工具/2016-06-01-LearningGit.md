@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Git&GitHub使用
-category: 工具
+category: Tools
 tags: Git GitHub
 keywords: Git
 description: Learning to use Git&GitHub
@@ -69,6 +69,17 @@ description: Learning to use Git&GitHub
 		#删除远程库
 		git remote rm
 		
+- 分支相关操作  
+	git的分支是超轻量级，并不是拷贝一份代码的副本，而是利用指针，记录变化。
+	
+		#创建新分支(从master拉取一个test分支）
+		git checkout -b test master
+		
+		#查看当前有哪些分支
+		git branch
+		
+		#切换到分支<x>
+		git branch <x>
 		
 		
 		
