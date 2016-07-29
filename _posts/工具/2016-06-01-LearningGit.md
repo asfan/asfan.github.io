@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Git&GitHub使用
-category: Tools
+category: 工具
 tags: Git GitHub
 keywords: Git
 description: Learning to use Git&GitHub
 ---
 
 ####学习背景
-记得12、13年的时候，小师妹说过她本科的孩纸们都在玩github，作为一个嵌入式开发工程师，真心不屑一顾了一番，然后继续自己貌似高大上的google research，真是每天都在鄙视昨天sb的自己。找工作时候，阴差阳错成为了互联网浪潮中一朵小小浪花，天天search、clone、pull，真正发现了git的美，特此记录一下常用的场景。
+记得12、13年的时候，小师妹说过她本科的孩纸们都在玩github，作为一个嵌入式开发工程师，真心不屑一顾了一番，然后继续自己貌似高大上的google research，真是每天都在鄙视昨天sb的自己。找工作时候，阴差阳错成为了互联网大潮中一朵小小浪花，天天search、clone、pull，真正发现了git的美，特此记录一下常用的场景。
 
 ####参考资料  
 
