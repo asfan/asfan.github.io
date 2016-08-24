@@ -14,5 +14,12 @@ description: awk语言学习
 
 ####正文
 
-基础结构：`pattern { action }`
+基础结构-模式动作语句：`pattern { action }`
 
+标准命令行：
+		
+		awk 'patern { action }' <data_file>
+
+从文件中读取awk命令：
+
+		awk -f <cmd-file> <data_file>
