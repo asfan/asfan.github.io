@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Redis安装（CentOS）
-category: Redis install
+category: Redis
 tags: redis
 keywords: 
 description: redis应用安装篇
