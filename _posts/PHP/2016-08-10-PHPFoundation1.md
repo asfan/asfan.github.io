@@ -47,7 +47,7 @@ description: php基础训练
 		var_dump(intval($y));//3
 		var_dump(intval($z));//0
 
-
+- 类型转换
 
 
 
