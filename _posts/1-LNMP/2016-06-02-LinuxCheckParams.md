@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Linux下各软件参数查看
-category: Linux
-tags: linux params
+category: LNMP
+tags: Linux
 keywords: linux
 description: linux cmd params check
 ---

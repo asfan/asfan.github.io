@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Linux服务运维工具
-category: Linux
-tags: linux Tools
+category: LNMP
+tags: Linux
 keywords: 
 description: linux服务器运维工具
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 网卡监控程序nload安装
-category: 工具
-tags: linux centos nload
+category: LNMP
+tags: Linux
 keywords: nload
 description: centOS6.5环境下，独立编译安装nload
 ---

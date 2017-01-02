@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PHP基础（1）
-category: PHP
+category: LNMP
 tags: PHP
 keywords: PHP foundation
 description: php基础训练

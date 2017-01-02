@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 命令行文本处理工具
-category: Linux
-tags: command line text 
+category: LNMP
+tags: Linux sort 
 keywords: text processing
 description: linux cmd params check
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Go语言学习（1）
-category: Go
+category: 语言
 tags: Go
 keywords: go1.6
 description: 学习go语言记录第一篇

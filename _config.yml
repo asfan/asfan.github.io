@@ -1,6 +1,8 @@
 permalink: /:year/:month/:day/:title.html
-paginate: 10
+paginate: 5
 markdown: redcarpet
+markdown_ext:  markdown,mkd,mkdn,md
+
 
 # 作者信息
 author: 
@@ -13,8 +15,8 @@ author:
 #  linkedin: https://www.linkedin.com/pub/anya-lin/81/91/232
 
 # 站点信息
-title: 范元平的blog
-description: My personal blog
+title: asfan的blog
+description: Personal blog of asfan
 url: http://asfan.github.io/
 rss_url: /pages/atom.xml
 
@@ -22,7 +24,7 @@ rss_url: /pages/atom.xml
 gavatar: /public/img/asfan.jpg
 favicon: /public/img/asfan.jpg
 
-# google analytics 设置
+# ga 设置 目前还没有玩起来（可以对自己的blog做个分析，可以试着做soa啦 哈哈哈）
 #ga:
 #  id: UA-54262064-1 
 #  url: painterlin.com
@@ -35,11 +37,24 @@ disqus:
 # 主题设置，自动激活某个标签
 active: Language
 
-# 首页除了最新文章外显示分类
-cates: 
-  - PHP
+# 首页除了最新文章外显示category分类
+cates_index: 
+  - 设计模式
+  - REDIS
   - 随笔
-  - Linux 
+
+# 左导的排序
+cates_list:
+  - LNMP
+  - 设计模式
+  - 架构
+  - 语言
+  - 学习中
+  - REDIS
+  - 基础知识
+  - 管理
+  - 阅读
+  - 随笔
 
 # 中文本地化
 locals:

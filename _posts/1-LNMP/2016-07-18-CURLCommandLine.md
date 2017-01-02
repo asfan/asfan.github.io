@@ -1,8 +1,8 @@
 ---
 layout: post
 title: CURL命令整理
-category: 工具
-tags: curl post get
+category: LNMP
+tags: Linux
 keywords: curl命令 linux
 description: 
 ---

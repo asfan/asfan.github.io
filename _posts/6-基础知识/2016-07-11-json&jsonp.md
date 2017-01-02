@@ -1,10 +1,10 @@
 ---
 layout: post
 title: JSON与JSONP
-category: 前端
+category: 基础
 tags: json jsonp
 keywords: json jsonp
-description: linux服务器运维工具
+description: 简单总结前端跨域方法以及优劣
 ---
 
 ####背景

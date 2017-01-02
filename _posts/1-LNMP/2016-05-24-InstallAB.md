@@ -1,8 +1,8 @@
 ---
 layout: post
 title: ab 单独安装
-category: 工具
-tags: apache ab
+category: LNMP
+tags: Linux ab
 keywords: apache ab
 description: centOS6.5环境下，独立安装ab工具
 ---
@@ -51,9 +51,4 @@ Apache Benchmark(简称ab) 简单易用，通常作为入门级的性能测试�
 		ulimit -n 65535
 			
 	这里有需要注意的问题，ab在压测过程中有其局限性，如本次项目，微信要求跳转二级页最低并发500，200ms返回，完全依赖ab的测试数据。实际测试20000次并发500的请求无论怎么优化（会单独写nginx+fpm优化相关内容）响应时间都在400ms左右，此时奇怪的事情发生了，将总请求次数提升到200000次，平均响应锐减到100ms左右。虽然有服务器程序需要预热等原理解释，但是现象还是比较诡异，后续会以源码阅读的方式看看ab平均响应时间的相关代码～
-	
-	
-	
-		
-
 
