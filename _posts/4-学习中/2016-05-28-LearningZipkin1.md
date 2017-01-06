@@ -1,6 +1,6 @@
 ---
 layout: post
-title: zipkin学习——系统安装篇
+title: zipkin学习-系统安装篇
 category: 学习
 tags: dapper zipkin
 keywords: zipkin trace

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 设计模式学习——OO特性与设计原则
+title: 设计模式学习—OO特性与设计原则
 category: 学习
 tags: design pattern
 keywords: OO pattern
