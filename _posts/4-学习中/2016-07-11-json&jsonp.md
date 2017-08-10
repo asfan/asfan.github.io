@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JSON与JSONP
-category: 基础
+category: 学习
 tags: json jsonp
 keywords: json jsonp
 description: 简单总结前端跨域方法以及优劣

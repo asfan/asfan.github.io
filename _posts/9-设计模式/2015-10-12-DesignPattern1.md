@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 设计模式学习—OO特性与设计原则
-category: 学习
+category: DP
 tags: design pattern
 keywords: OO pattern
 description: 设计模式学习
@@ -18,7 +18,7 @@ description: 设计模式学习
 设计模式基于面向对象思想，因此，学习设计模式首先要理解面向对象的设计原则。  
 面向对象的三大特性是：封装、继承（代码重用）、多态（接口重用），结构如下，网上盗图一张，如有侵权问题，请随时联系我，会立即下掉。
 
-![OO pricinples](/public/img/OOBase.gif)
+![OO pricinples](/public/img/OO/OOBase.gif)
 
 - 封装  
 **定义：**对象和类的主要特性，把客观的事物抽象，隐藏事物属性和实现细节，仅对外公开接口，控制程序中属性的读写访问级别。  

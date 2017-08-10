@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ab 单独安装
+title: Linux下压测工具ab
 category: LNMP
 tags: Linux ab
 keywords: apache ab

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 设计模式学习—UML基础
-category: 学习
+category: DP
 tags: UML
 keywords: UML
 description: 设计模式学习之UML基础学习

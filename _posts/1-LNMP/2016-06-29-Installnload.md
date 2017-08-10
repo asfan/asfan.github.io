@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 网卡监控程序nload安装
+title: Linux下网卡监控程序nload
 category: LNMP
 tags: Linux
 keywords: nload

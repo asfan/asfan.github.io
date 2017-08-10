@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HTTP协议基础知识
-category: 基础
+category: 学习
 tags: http interview
 keywords: http RFC2616
 description: http基础
