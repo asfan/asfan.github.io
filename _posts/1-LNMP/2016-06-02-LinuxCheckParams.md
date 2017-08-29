@@ -28,6 +28,10 @@ description: linux cmd params check
 		
 		your_application_path/nginx -V
 		
+	nginx查看读取的conf文件
+		
+		your_application_path/nginx -t
+		
 3. apache查看编译参数:
 
 		cat your_build_path/apache2/build/config.nice

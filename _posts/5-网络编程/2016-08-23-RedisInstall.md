@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Redis安装
-category: REDIS
+category: 网络编程
 tags: redis
 keywords: 
 description: redis应用之安装篇

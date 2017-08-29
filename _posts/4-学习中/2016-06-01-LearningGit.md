@@ -15,8 +15,8 @@ description: Learning to use Git&GitHub
 - [廖雪峰Git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 
 
-####正文
-#####个人的一些理解：
+###正文
+####个人的一些理解：
 
 - git&github的区别  
 	git：		一个单机的版本控制软件，利用fs完美的解决了版本问题(没有远端中心节点的概念，保持c2c的结构)。  
@@ -80,6 +80,30 @@ description: Learning to use Git&GitHub
 		
 		#切换到分支<x>
 		git branch <x>
+		
+- 对比svn的软连接，git提供了submodule命令以帮助使用者快速将其他git项目代码copy到当前项目下，同时利用更新可以随时拿到submodule的最新代码，使用过程如下：
+
+		#在当前git库中增加外部连接（submodule连接）
+		git submodule add http://github.com/asfan/test.git ./test
+		git commit
+		#使用过程中，从远端库上clone下来带有submodule的代码，submodule不会被自动的拉到本地，需要执行以下
+		git submodule init
+		git submodule update
+		# 到相关文件夹下确定一下代码被拉取成功，则ok
+
+- 从github上fork他人项目源代码到自己repository的代码，通常要保持和源代码的同步，此处记录一下操作流程（以自己的yaf为例）：
+
+		# 将自己repo上的remote项目clone到本地
+		git clone https://github.com/laruence/yaf.git ./yaf
+		# 将他人最新项目代码关联到本地git
+		git remote add upstream https://github.com/laruence/yaf.git
+		# 合并源代码更新到本地
+		git fetch upstream
+		git checkout master
+		git merge upstream/master
+		git push origin master
+		
+		
 		
 		
 		
